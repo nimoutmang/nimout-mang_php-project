@@ -19,10 +19,6 @@
             <div class="form-group">
                 <input type="file" class="form-control" value="<?=$pizza['image'] ?>" placeholder="Image" name="image">
             </div>
-            <!-- <form action="upload.php" method="post" enctype="multipart/form-data">
-                <input type="file" name="image">
-                <button type="submit">Upload</button>
-            </form> -->
             <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block">Update</button>
             </div>

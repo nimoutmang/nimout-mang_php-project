@@ -42,4 +42,14 @@
 
     } 
 
+    //Search
+    function searchByName($name){
+        
+        $title = $name['search'];
+        return database()->query("SELECT * FROM pizza WHERE name LIKE '%$title%' ");
+    }
+    //User
+    // function getUser(){
+    //     return database()->query("SELECT * FROM user");
+    // }
     
