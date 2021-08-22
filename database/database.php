@@ -2,18 +2,22 @@
     function database(){
         return new mysqli ('localhost', 'root', '', 'pizzashop_db');
     }
+    //..................getAll..........................
 
     function getAllPizza(){
         return database()->query("SELECT * FROM pizza ORDER BY date DESC ");
     }
-    
+    //..................getOne..........................
+
     function getOnePizza($id){
         return database()->query("SELECT * FROM pizza WHERE pizzaid = $id ");
     }
+    //..................delete..........................
 
     function deletePizza($id){
         return database()->query("DELETE FROM pizza WHERE $id = pizzaid ");
     }
+    //.................create...........................
 
     function createPizza($value){
         $name = $value['name'];
@@ -28,6 +32,7 @@
         return database()->query("INSERT INTO pizza(name, price, image) values ('$name', '$price', '$fileName')");
     }
 
+    //..................update...............................
 
     function updatePizza($value){
         $name = $value['name'];
@@ -42,14 +47,11 @@
 
     } 
 
-    //Search
+    //................Search.........................................
     function searchByName($name){
         
         $title = $name['search'];
         return database()->query("SELECT * FROM pizza WHERE name LIKE '%$title%' ");
     }
-    //User
-    // function getUser(){
-    //     return database()->query("SELECT * FROM user");
-    // }
+    
     

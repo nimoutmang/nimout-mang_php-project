@@ -16,7 +16,7 @@
         <a class="nav-link disabled" href="?page=about">About Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="?page=login">Login</a>
+        <a class="nav-link disabled" href="?page=contact">Contact Us</a>
       </li>
     </ul>
     </ul>

@@ -12,7 +12,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <h6>About</h6>
-            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+            <p class="text-justify">Pizzacompany.com <i>TO BE SIMPLE </i>Pizza is a worldwide favorite. The reason for pizza spread is that you can add anything to it and eat it anytime of the day and anywhere. The pizza originated in Italy and it is one of the favorite foods for adults and children.</p>
           </div>
 
           <div class="col-xs-6 col-md-3">
@@ -20,7 +20,7 @@
             <ul class="footer-links">
               <li><a href="http://scanfcode.com/category/c-language/">Italian dish</a></li>
               <li><a href="http://scanfcode.com/category/front-end-development/">Cheese pizza</a></li>
-              <li><a href="http://scanfcode.com/category/back-end-development/">Myplate$pizza</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">Myplate&pizza</a></li>
               <li><a href="http://scanfcode.com/category/java-programming-language/">Vegetable</a></li>
               <li><a href="http://scanfcode.com/category/android/">Chicago pizza</a></li>
               
@@ -43,8 +43,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-         <a href="#">Scanfcode</a>
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">Nimout</a>
             </p>
           </div>
 

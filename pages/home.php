@@ -2,7 +2,7 @@
     <div class="description mt-5 d-flex  ">
         <h1>Hello welcome to <br>
         my pizza company.</h1><br>
-        <!-- <img src="" alt="" style ="width:200px; height:200px;"> -->
+        <img src="" alt="" style ="width:100%;">
     </div>
     <div class="paragraph">
         <p>Italian Pizza With Cherry Tomatoes and Green Basil</p>

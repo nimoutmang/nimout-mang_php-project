@@ -28,6 +28,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Name : <?= $pizza['name']?> </h5>
                             <p class="card-text">Price : <?= $pizza['price']?> </p>
+                            <p class="card-text">Date: <?= $pizza['date']?></p>
                         </div>
                         <div class="action d-flex justify-content-end">
                             <a href="update_pizza.php?id=<?= $pizza['pizzaid'] ?>" class="btn btn-primary btn-sm mr-2"><i class="fa fa-pencil" ></i></a>

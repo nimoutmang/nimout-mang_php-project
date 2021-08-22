@@ -11,7 +11,7 @@
         }elseif($_GET['page'] == 'about'){
             include_once('pages/about.php');
         }else{
-            include_once('pages/login.php');
+            include_once('pages/contact.php');
         }
     }else{
         include_once('pages/home.php');
